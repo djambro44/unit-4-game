@@ -2,7 +2,10 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 50px;
-    
+}
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
 }
 .directions {
     text-align: center;
@@ -19,19 +22,28 @@ h1 {
 img {
     height: 100px;
     width: 100px;
+    margin-left: 80px;
     float: left;
     align-content: center;
     padding: 25px;
-    background-color: black;
+    background-color: rgb(51, 152, 247);
+    opacity: .9;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 #totalScore {
     position: relative;
+    text-align: center;
+    margin-left: 80px;
     top: 200px;
+    right: 500px;
     font-size: 25px;
     padding: 25px;
-    background-color: rgb(233, 183, 130);
+    background-color: rgb(51, 152, 247);
     opacity: .9;
-    border: 5px solid gray;
+    border: 5px solid whitesmoke;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -43,9 +55,9 @@ img {
     float: right;
     font-size: 25px;
     padding: 50px;
-    background-color: rgb(233, 183, 130);
+    background-color: rgb(51, 152, 247);
     opacity: .9;
-    border: 5px solid gray;
+    border: 5px solid whitesmoke;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -57,9 +69,9 @@ img {
     left: 300px;
     font-size: 25px;
     padding: 50px;
-    background-color: rgb(233, 183, 130);
+    background-color:  rgb(51, 152, 247);
     opacity: .9;
-    border: 5px solid gray;
+    border: 5px solid whitesmoke;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
