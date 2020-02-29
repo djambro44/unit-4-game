@@ -34,7 +34,7 @@ img {
     width: 100px;
     margin-left: 80px;
     position: relative;
-    left: 150px;
+    left: 225px;
     float: left;
     align-content: center;
     padding: 25px;
@@ -76,7 +76,7 @@ img {
 #wins {
     position: absolute;
     top: 800px;
-    right: 900px;
+    right: 1025px;
     float: right;
     font-size: 25px;
     padding: 50px;
@@ -91,7 +91,7 @@ img {
     float: left;
     position: absolute;
     top: 800px;
-    left: 900px;
+    left: 1030px;
     font-size: 25px;
     padding: 50px;
     background-color:  rgb(51, 152, 247);

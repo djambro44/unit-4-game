@@ -93,6 +93,7 @@ $(document).ready(function () {
                 console.log("Losses: " + losses);
                 reset();
                 $("#randomNumber").html("Random Number: " + randomNumber)
+                document.getElementById("audio2").play();
             }
 
         });
@@ -120,6 +121,7 @@ $(document).ready(function () {
             console.log("Losses: " + losses);
             reset();
             $("#randomNumber").html("Random Number: " + randomNumber)
+            document.getElementById("audio2").play();
         }
 
     });
