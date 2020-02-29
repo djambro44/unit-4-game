@@ -83,7 +83,8 @@ $(document).ready(function () {
                 $("#wins").html("Wins: " + wins);
                 console.log("Wins: " + wins);
                 reset();
-
+                $("#randomNumber").html("Random Number: " + randomNumber)
+                document.getElementById("audio").play();
             }
 
             else if (newScore > randomNumber) {
@@ -91,7 +92,7 @@ $(document).ready(function () {
                 $("#losses").html("Losses: " + losses);
                 console.log("Losses: " + losses);
                 reset();
-
+                $("#randomNumber").html("Random Number: " + randomNumber)
             }
 
         });
@@ -109,6 +110,8 @@ $(document).ready(function () {
             $("#wins").html("Wins: " + wins);
             console.log("Wins: " + wins);
             reset();
+            $("#randomNumber").html("Random Number: " + randomNumber)
+            document.getElementById("audio").play();
         }
 
         else if (newScore > randomNumber) {
@@ -116,6 +119,7 @@ $(document).ready(function () {
             $("#losses").html("Losses: " + losses);
             console.log("Losses: " + losses);
             reset();
+            $("#randomNumber").html("Random Number: " + randomNumber)
         }
 
     });

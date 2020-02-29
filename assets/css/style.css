@@ -2,6 +2,13 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 50px;
+    padding: 25px;
+    background-color: rgb(51, 152, 247);
+    opacity: .9;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 body {
     background-image: url("../images/background.jpg");
@@ -10,19 +17,24 @@ body {
 .directions {
     text-align: center;
     font-size: 25px;
+    padding: 25px;
+    background-color: rgb(51, 152, 247);
+    opacity: .9;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 #directionsTitle {
     font-weight: bold;
     text-decoration: underline;
 }
-#randomNumber {
-    text-align: center;
-    font-size: 25px;
-}
 img {
     height: 100px;
     width: 100px;
     margin-left: 80px;
+    position: relative;
+    left: 150px;
     float: left;
     align-content: center;
     padding: 25px;
@@ -33,12 +45,25 @@ img {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
-#totalScore {
-    position: relative;
+#randomNumber {
     text-align: center;
-    margin-left: 80px;
-    top: 200px;
+    font-size: 25px;
+    position: relative;
+    padding: 25px; 
+    background-color: rgb(51, 152, 247);
+    opacity: .9;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#totalScore {
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    top: 815px;
     right: 500px;
+    left: 500px;
     font-size: 25px;
     padding: 25px;
     background-color: rgb(51, 152, 247);
@@ -49,9 +74,9 @@ img {
     -webkit-border-radius: 10px;
 }
 #wins {
-    position: relative;
-    top: 225px;
-    right: 300px;
+    position: absolute;
+    top: 800px;
+    right: 900px;
     float: right;
     font-size: 25px;
     padding: 50px;
@@ -64,9 +89,9 @@ img {
 }
 #losses {
     float: left;
-    position: relative;
-    top: 225px;
-    left: 300px;
+    position: absolute;
+    top: 800px;
+    left: 900px;
     font-size: 25px;
     padding: 50px;
     background-color:  rgb(51, 152, 247);
